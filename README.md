@@ -30,7 +30,7 @@ The narration does **not** Hellenise these, so this edition leaves them untouche
 
 Bryant uses both *Pallas* and *Minerva* for Athena; the narration says **Athena** only for *Pallas* and keeps *Minerva*, so both names appear in this text — exactly as in the audio.
 
-The mapping lives in [`tools/substitutions.json`](tools/substitutions.json) and is applied by [`tools/substitute.py`](tools/substitute.py); [`tools/extract_names.py`](tools/extract_names.py) re-scans the books to confirm no Bryant forms remain.
+The mapping lives in [`scripts/substitutions.json`](scripts/substitutions.json) and is applied by [`scripts/substitute.py`](scripts/substitute.py); [`scripts/extract_names.py`](scripts/extract_names.py) re-scans the books to confirm no Bryant forms remain.
 
 ## How to use it
 
@@ -55,11 +55,11 @@ pipx upgrade standardebooks
 
 ### Lint and build
 
-Run the linter before building, then build from the repository root (`.`):
+Run the linter before building. Pass `epub-src/` as the project path (the SE source lives there, not at the repo root):
 
 ```bash
-se lint .
-se build .
+se lint epub-src/
+se build epub-src/
 ```
 
 ### Useful build flags
@@ -74,8 +74,8 @@ se build .
 Recommended full command — lint, then build all formats with validation:
 
 ```bash
-se lint .
-se build --check --kindle --kobo .
+se lint epub-src/
+se build --check --kindle --kobo epub-src/
 ```
 
 ## A note on metre
