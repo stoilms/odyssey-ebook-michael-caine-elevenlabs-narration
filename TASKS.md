@@ -10,12 +10,12 @@
 - [x] Create/update CLAUDE.md
 - [x] Reorganize project directory to be cleaner
 - [x] Create Chapter 0 from the Michael Caine narration 
-- [ ] Write an endnote for the bridgehead section at the beginning of Book 1 - explain that the bridgehead is not read out by Michael Caine in the audiobook, but is present in the WCB translation and is therefore kept in this edition for context and authenticity
+- [ ] Write an endnote for the bridgehead section at the beginning of Book 1 - explain that the bridgeheads are not read out by Michael Caine in the audiobook, but they are present in the WCB translation and are therefore kept in this edition for context and authenticity
 - [ ] Write an endnote for Book 0 - explain that it is not present in the original Odyssey text, but has been added to match 100% the ElevenLabs narration
 - [ ] Create new book cover
 - [ ] Remove Standard Ebooks branding and graphics; keep them only in relevant places to make clear the SE book is the basis for this one, but that this is *not* a Standard Ebooks edition
 - [ ] Update colophon., imprint. and uncopyright.xhtml files 
-- [ ] Write Editor's Note for the front and move WCB Preface to the end 
+- [ ] Write Editor's Note for the front and move WCB Preface to the end. Add an endnote to the preface putting it in context, especially regarding WCB's argumentation for using Roman names - something that we have reversed with our edition
 - [ ] Run se lint; fix all lint warnings and errors
 - [ ] Build EPUB
 - [ ] Test on Google Play Books and Calibre ebook reader
