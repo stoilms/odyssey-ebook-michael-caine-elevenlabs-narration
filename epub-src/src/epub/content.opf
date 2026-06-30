@@ -44,7 +44,7 @@
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;The &lt;i&gt;Odyssey&lt;/i&gt; is one of the oldest works of Western literature, dating back to classical antiquity. &lt;a href="https://standardebooks.org/ebooks/homer"&gt;Homer’s&lt;/a&gt; epic poem belongs in a collection called the Epic Cycle, which includes the &lt;i&gt;&lt;a href="https://standardebooks.org/ebooks/homer/the-iliad/william-cullen-bryant"&gt;Iliad&lt;/a&gt;&lt;/i&gt;. It was originally written in ancient Greek, utilizing a dactylic hexameter rhyme scheme. Although this rhyme scheme sounds beautiful in its native language, in modern English it can sound awkward and, as Eric McMillan humorously describes it, resembles “pumpkins rolling on a barn floor.” William Cullen Bryant avoided this problem by composing his translation in blank verse, a rhyme scheme that sounds natural in English.&lt;/p&gt;
 			&lt;p&gt;This epic poem follows Odysseus, one of the Greek leaders that brought an end to the ten-year-long Trojan war. Longing for home, he travels across the Mediterranean Sea to return to his kingdom in Ithaca; unfortunately, our hero manages to anger Poseidon, the god of the sea, making his trip home agonizingly slow and extremely dangerous. While Odysseus is trying to return home, his family in Ithaca is also in danger. Suitors have traveled to the home of Odysseus to marry his wife, Penelope, believing that her husband did not survive the war. These men are willing to kill anyone who stands in their way.&lt;/p&gt;
-			&lt;p&gt;This edition restores the Greek names of the gods and heroes throughout Bryant’s translation, reading Odysseus, Poseidon, Athena, and Zeus where Bryant used the Roman forms Ulysses, Neptune, Minerva, and Jove, so that the printed text matches the audiobook narrated by an artificial voice modeled on Michael Caine (ElevenLabs, 2026). It also adds a short introduction transcribed from that narration as “Book 0,” opens with an editor’s note describing the changes, and moves Bryant’s original preface, which argued for keeping the Roman names, to the back of the book.&lt;/p&gt;
+			&lt;p&gt;This edition restores the Greek names of the gods and heroes throughout Bryant’s translation, reading Odysseus, Poseidon, Athena, and Zeus where Bryant used the Roman forms Ulysses, Neptune, Minerva, and Jove, so that the printed text matches the audiobook narrated by an artificial voice modeled on Michael Caine (ElevenLabs, 2026). It also adds a short introduction transcribed from that narration, opens with an editor’s note describing the changes, and moves Bryant’s original preface, which argued for keeping the Roman names, to the back of the book.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://standardebooks.org/ebooks/homer/the-odyssey/william-cullen-bryant</dc:source>
@@ -97,7 +97,6 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
-		<item href="text/book-0.xhtml" id="book-0.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/book-1.xhtml" id="book-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/book-2.xhtml" id="book-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/book-3.xhtml" id="book-3.xhtml" media-type="application/xhtml+xml"/>
@@ -126,6 +125,7 @@
 		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/halftitlepage.xhtml" id="halftitlepage.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/introduction.xhtml" id="introduction.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/note.xhtml" id="note.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/preface.xhtml" id="preface.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
@@ -136,8 +136,8 @@
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
 		<itemref idref="note.xhtml"/>
+		<itemref idref="introduction.xhtml"/>
 		<itemref idref="halftitlepage.xhtml"/>
-		<itemref idref="book-0.xhtml"/>
 		<itemref idref="book-1.xhtml"/>
 		<itemref idref="book-2.xhtml"/>
 		<itemref idref="book-3.xhtml"/>

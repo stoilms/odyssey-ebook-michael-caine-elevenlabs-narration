@@ -19,9 +19,9 @@ se build epub-src/
 ```
 
 ## Source Files
-All content lives in `epub-src/src/epub/text/` as `book-1.xhtml` … `book-24.xhtml`, plus `book-0.xhtml` (the prose introduction — an Eleven Productions original transcribed from the audiobook), `preface.xhtml`, `colophon.xhtml`, etc. These are UTF-8 XHTML files containing typographic characters (`’`, `—`, curly quotes) — edits must preserve valid XHTML markup. Only modify metadata files like `content.opf` or `toc.xhtml` insofar as needed to reflect edits to `book-x.xhtml` files.
+All content lives in `epub-src/src/epub/text/` as `book-1.xhtml` … `book-24.xhtml`, plus `introduction.xhtml` (the prose introduction — an Eleven Productions original transcribed from the audiobook, placed in the front matter, not numbered as a book), `preface.xhtml`, `colophon.xhtml`, etc. These are UTF-8 XHTML files containing typographic characters (`’`, `—`, curly quotes) — edits must preserve valid XHTML markup. Only modify metadata files like `content.opf` or `toc.xhtml` insofar as needed to reflect edits to `book-x.xhtml` files.
 
-Verse is marked up cleanly: each poetic line is its own `<span>…</span>` separated by `<br/>`. Each book opens with a prose "argument" `<p>` that also contains names. The sole exception is `book-0.xhtml`, which is plain prose (ordinary `<p>` paragraphs, `epub:type="chapter"` *without* `z3998:poem`) and has no argument.
+Verse is marked up cleanly: each poetic line is its own `<span>…</span>` separated by `<br/>`. Each book opens with a prose "argument" `<p>` that also contains names. The sole prose exception is `introduction.xhtml`, which is plain prose (ordinary `<p>` paragraphs) and has no argument.
 
 ## Name Substitution Map
 The final, audio-verified swap list is documented in `README.md`. The mapping itself lives in `scripts/substitutions.json` and is applied by `scripts/substitute.py`; `scripts/extract_names.py` re-scans the books to confirm no Bryant forms remain.
@@ -44,9 +44,10 @@ All substitution work is **complete**:
 
 Do not re-run substitutions — the books are already in their final Greek-names state.
 
-### Book 0 added (2026-06-30)
-- `epub-src/src/epub/text/book-0.xhtml` adds the audiobook's framing introduction (opening "This is an Eleven Productions original."), transcribed from the Michael Caine narration. It is **prose, not verse** — the only such chapter — and is titled "Book 0: Introduction".
-- Registered in `content.opf` (manifest + spine, immediately before `book-1.xhtml`) and `toc.xhtml` (first entry under "The Odyssey"); the `bodymatter` landmark now points to `book-0.xhtml`.
+### Introduction added (2026-06-30, restructured 2026-07-01)
+- `epub-src/src/epub/text/introduction.xhtml` adds the audiobook's framing introduction (opening "This is an Eleven Productions original."), transcribed from the Michael Caine narration. It is **prose, not verse**, titled simply "Introduction" (`<h2>Introduction</h2>`, no `se:label`/ordinal, no `p epub:type="title"`).
+- It is **front matter, not a numbered book**: `epub:type="introduction"` in `frontmatter`. Spine + TOC slot is **after `note.xhtml` (the editor's note), before `halftitlepage.xhtml`**. Manifest item id `introduction.xhtml`; the `bodymatter` landmark now points to `book-1.xhtml`.
+- Originally added as "Book 0" (`book-0.xhtml`); renamed and moved out of the books list on 2026-07-01 because it isn't one of the 24 books. Endnote 21 (in `endnotes.xhtml`, ref in `introduction.xhtml`) explains it is not part of Homer's poem.
 - It is new content that already uses the Greek names (Odysseus), not a Bryant passage, so it is **exempt from the substitution scripts** — `extract_names.py` may surface its forms, but do not run `substitute.py` against it.
 
 ### Front/back matter restructure (2026-06-30)

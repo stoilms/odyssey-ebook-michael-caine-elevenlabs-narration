@@ -14,7 +14,8 @@
     - [x] Rewrite colophon.xhtml (de-brand, factual lineage, record modifications, name editor)
     - [x] Update content.opf metadata (editor contributor, de-brand publisher/VCS, source, descriptions)
 - [x] Write an endnote for the bridgehead section at the beginning of each book - explain it is not read out by Michael Caine but is kept for context and authenticity (added as note-1 on Book 1's bridgehead only; existing name-notes renumbered 2–20)
-- [ ] Write an endnote for Book 0 - explain it is not in the original Odyssey but added to match the ElevenLabs narration
+- [x] Renamed "Book 0" to a front-matter "Introduction" (`introduction.xhtml`, placed after the editor's note and before the half-title page; dropped the `se:label`/ordinal and `p` title; updated content.opf, toc.xhtml, colophon, README, CLAUDE.md)
+- [x] Write an endnote for the Introduction - explain it is not in the original Odyssey but added to match the ElevenLabs narration
 - [ ] Create new book cover; remove Standard Ebooks branding/wordmark from it
 - [ ] De-brand the title page (titlepage.svg) and add an editor credit
 - [ ] De-brand the imprint (imprint.xhtml): remove the SE logo, or drop the imprint page entirely
