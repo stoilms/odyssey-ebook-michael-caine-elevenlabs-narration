@@ -13,7 +13,7 @@
 - [x] Write Editor's Note for the front and move WCB Preface to the end
     - [x] Rewrite colophon.xhtml (de-brand, factual lineage, record modifications, name editor)
     - [x] Update content.opf metadata (editor contributor, de-brand publisher/VCS, source, descriptions)
-- [ ] Write an endnote for the bridgehead section at the beginning of each book - explain it is not read out by Michael Caine but is kept for context and authenticity
+- [x] Write an endnote for the bridgehead section at the beginning of each book - explain it is not read out by Michael Caine but is kept for context and authenticity (added as note-1 on Book 1's bridgehead only; existing name-notes renumbered 2–20)
 - [ ] Write an endnote for Book 0 - explain it is not in the original Odyssey but added to match the ElevenLabs narration
 - [ ] Create new book cover; remove Standard Ebooks branding/wordmark from it
 - [ ] De-brand the title page (titlepage.svg) and add an editor credit
