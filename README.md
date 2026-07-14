@@ -1,6 +1,10 @@
 # *The Odyssey* — Companion Ebook to the ElevenLabs Michael Caine Audiobook
 
+<img align="left" hspace=20 src="new-cover/ebook-cover-updated.png" alt="Ebook cover" width=256 />
+
 A free companion ebook for the [ElevenLabs audiobook of *The Odyssey*](https://elevenreader.io/the-odyssey), narrated by the AI voice of Sir Michael Caine (ElevenProductions, 2026). It is William Cullen Bryant's 1871 translation with the most prominent character and deity names rendered in their Greek forms — **Odysseus** instead of *Ulysses*, **Zeus** instead of *Jove*, **Poseidon** instead of *Neptune*, **Athena** instead of *Pallas*, and so on — so the printed text matches the names spoken in the narration, word for word, across all 24 books.
+
+<br clear="left" />
 
 ## Why this exists
 
@@ -96,9 +100,13 @@ This is a deliberate trade-off. The edition exists to match the names you hear i
 
 ## Source & license
 
-This is an **unofficial derivative work**. The base text comes from the [Standard Ebooks edition of Bryant's translation](https://standardebooks.org/ebooks/homer/the-odyssey/william-cullen-bryant), itself derived from public-domain scans of Bryant's 1871 first edition. Like the upstream production, this edition is released into the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
+This is an **unofficial derivative work**. The base text comes from the [Standard Ebooks edition of Bryant's translation](https://standardebooks.org/ebooks/homer/the-odyssey/william-cullen-bryant), itself derived from public-domain scans of Bryant's 1871 first edition. Like the upstream production, all text within this edition is released into the public domain under [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/).
 
-It is **not** an official Standard Ebooks release and carries **no endorsement** from Standard Ebooks. Standard Ebooks is not responsible for the name changes, the broken metre, or anything else in this edition. For the canonical, unmodified production, see the [upstream repository](https://github.com/standardebooks/homer_the-odyssey_william-cullen-bryant).
+The ebook cover is *not* released into the public domain. The new cover artwork was created by the repository author, based on the cover art for the Michael Caine-narrated audiobook on ElevenReader. A request for permission to release the modified cover was sent to ElevenLabs Legal on July 1, 2026; as of this writing, no response has been received. Should ElevenLabs contact the repo author with a request to remove copyrighted material, the author commits to doing so promptly. The author respects ElevenLabs's copyright, does not seek to profit from this ebook's release, and — given that the ElevenReader audiobook itself is released for free — does not consider this ebook to be in competition with the audiobook or to be harmful to rightsholders' interests.
+
+This is not an official Standard Ebooks release and carries no endorsement from Standard Ebooks. Standard Ebooks is not responsible for the name changes, the metre changes, or anything else in this edition. For the canonical, unmodified production, see the [upstream repository](https://github.com/standardebooks/homer_the-odyssey_william-cullen-bryant).
+
+This is not an official ElevenReader release - it carries no endorsement from ElevenLabs.
 
 ## Related
 
