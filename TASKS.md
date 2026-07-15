@@ -39,6 +39,8 @@
 - [ ] Add timestamps indicating which line of the ebook corresponds to which minute of the audiobook
 - [ ] Add more endnotes explaining which characters have kept their Roman names (because ElevenLabs have kept them) and explaining the Greek equivalent
 - [ ] Add more endnotes giving context about events, places and characters in the poem for the first-time reader
+- [ ] Add a GitHub Action that runs `se lint` on each commit and produces a report
+- [ ] Add a GitHub Action that runs on each tag creation and automatically creates a new Release with the built ebook formats attached
 
 
 # Actions to be done after every task
