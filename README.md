@@ -12,6 +12,19 @@ ElevenLabs' Michael Caine narration follows Bryant's translation closely, but it
 
 If you're listening to the Michael Caine Odyssey audiobook on ElevenReader and want a text to follow along with, this is it.
 
+## How to use it
+
+Download the ebook from the [latest release page](https://github.com/sstoilovABLE/odyssey-ebook-michael-caine-elevenlabs-narration/releases/latest) and read it while listening to the Michael Caine audiobook on the [ElevenReader app](https://elevenreader.io).
+
+Each release offers the same book in several formats — pick the one for your device:
+
+- **Compatible EPUB** (`.epub`) — works across most e-readers (Apple Books, Google Play Books, Calibre, Nook, and others) *except* Kindles and very old devices. This is the recommended choice if you're unsure, and the universal fallback.
+- **Kindle** (`.azw3`) — Amazon's proprietary format for Kindle e-readers and the Kindle desktop/Android apps (not the iOS app). Choose this on a Kindle for the best formatting, including hyphenation and kerning.
+- **Kobo** (`.kepub.epub`) — a build tuned for Kobo's WebKit-based renderer. Plain EPUBs work on Kobos too, but this format gives noticeably better typography and rendering on those devices.
+- **Advanced EPUB** (`_advanced.epub`) — uses the latest ebook technology and is aimed at developers testing modern reading systems rather than general use. Only grab this if you specifically want it.
+
+The formats offered and this guidance follow the [Standard Ebooks conventions](https://standardebooks.org/help/how-to-use-our-ebooks), the same toolset used to produce the upstream source; see their help page for step-by-step instructions on transferring each file to your device.
+
 ## Name changes (matching the narration)
 
 Audio-verified against the released narration. These are the **only** names this edition changes from Bryant — the ones actually spoken in Greek form. Everything else is left as Bryant wrote it.
@@ -45,10 +58,6 @@ Unlike the rest of the poem (Bryant's blank verse), the Introduction is set as *
 ## Editor's note and Bryant's preface
 
 This edition opens with a short **editor's note** ("About This Edition") explaining the name change and the trade-off it makes with Bryant's metre. Bryant's own **1871 preface** — in which he argued *for* the Roman names, on the strength of English poetic tradition — has been moved to the **back of the book**, where it is preserved in full as a document of its time. **Endnotes** at the back record every name that was changed and every Latinate name deliberately kept.
-
-## How to use it
-
-Download the .epub from Releases and read it in any EPUB reader. You can read it while listening to the Michael Caine audiobook on the [ElevenReader app](https://elevenreader.io).
 
 ## Building the ebook
 
