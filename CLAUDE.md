@@ -94,4 +94,4 @@ Bryant wrote in blank verse (iambic pentameter). Roman and Greek names are often
 - Handle possessives (e.g. "Ulysses'" → "Odysseus'")
 - Do NOT substitute inside XML attributes, only inside text nodes
 - Only update README.md and CLAUDE.md after significant tasks that concern the whole project (e.g. structural changes, new front/back matter, completion milestones) — not after small or narrowly-scoped fixes (e.g. a single typo/inconsistency correction).
-- After every run, update TASKS.md to reflect tasks completed and to potentially add new tasks that may need to be done
+- After every run, update TASKS.md to reflect tasks completed and to potentially add new tasks that may need to be done in the future

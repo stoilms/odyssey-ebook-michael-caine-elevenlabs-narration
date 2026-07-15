@@ -4,7 +4,7 @@
 		<ignore code="c-009">
 			<line>15</line>
 			<line>24</line>
-			<reason>Duplicate bridgehead selectors intentionally override the SE base style.</reason>
+			<reason>Duplicate bridgehead selectors intentionally override the Standard Ebooks base style.</reason>
 		</ignore>
 	</file>
 	<file path="cover.svg">
