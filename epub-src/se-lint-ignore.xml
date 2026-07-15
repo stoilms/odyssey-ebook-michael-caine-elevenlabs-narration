@@ -12,14 +12,14 @@
 			<reason>This edition replaces the Standard Ebooks title wordmark (titlepage.svg) with the new cover art, so there is no titlepage SVG whose title must match the cover SVG.</reason>
 		</ignore>
 	</file>
-	<file path="uncopyright.xhtml">
-		<ignore code="f-003">
-			<reason>The uncopyright is intentionally customized for this derivative edition: it notes that the cover image is not dedicated to the public domain, drops the public-domain claims over artwork, and replaces the Standard Ebooks representations line with the editor's, so it no longer matches the SE boilerplate template.</reason>
+	<file path="content.opf">
+		<ignore code="m-009">
+			<reason>De-branded fork: the VCS repository link points to this fork's real GitHub repository, which does not match the URL that SE tooling derives from the (non-SE) identifier.</reason>
 		</ignore>
 	</file>
-	<file path="content.opf">
-		<ignore code="f-002">
-			<reason>De-branded fork: the Standard Ebooks publisher logo (images/logo.svg) has been removed intentionally, and LICENSE.md lives at the repository root rather than inside the SE project directory.</reason>
+	<file path="book-1.xhtml">
+		<ignore code="t-061">
+			<reason>Bryant's per-book "arguments" are summary-style bridgeheads that intentionally end without terminal punctuation (a dash-separated list of contents), preserved as he wrote them; an endnote explains they are retained for context and are not read in the narration.</reason>
 		</ignore>
 	</file>
 </se-lint-ignore>

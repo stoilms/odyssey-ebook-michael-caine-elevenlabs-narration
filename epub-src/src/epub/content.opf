@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">https://standardebooks.org/ebooks/homer/the-odyssey/william-cullen-bryant</dc:identifier>
-		<dc:date>2020-02-08T01:55:23Z</dc:date>
-		<meta property="dcterms:modified">2020-02-08T01:55:23Z</meta>
+		<dc:identifier id="uid">https://github.com/sstoilovABLE/odyssey-ebook-michael-caine-elevenlabs-narration</dc:identifier>
+		<dc:date>2026-07-15T00:00:00Z</dc:date>
+		<meta property="dcterms:modified">2026-07-15T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Stoil M. Stoilov</dc:publisher>
@@ -18,6 +18,7 @@
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Stoil M. Stoilov</meta>
 		<meta property="schema:accessMode">textual</meta>
+		<meta property="schema:accessMode">visual</meta>
 		<meta property="schema:accessModeSufficient">textual</meta>
 		<meta property="schema:accessibilityFeature">alternativeText</meta>
 		<meta property="schema:accessibilityFeature">displayTransformability</meta>
@@ -52,8 +53,8 @@
 		<dc:source>https://archive.org/details/odysseyofhomer1899home1</dc:source>
 		<dc:source>https://catalog.hathitrust.org/Record/008673668</dc:source>
 		<dc:source>https://www.google.com/books/edition/The_Odyssey_of_Homer/edgpAAAAYAAJ</dc:source>
-		<meta property="schema:wordCount">119502</meta>
-		<meta property="schema:educationalLevel">71.07</meta>
+		<meta property="schema:wordCount">120292</meta>
+		<meta property="schema:educationalLevel">71.28</meta>
 		<link href="https://en.wikipedia.org/wiki/Odyssey" rel="schema:sameAs"/>
 		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
@@ -69,11 +70,15 @@
 		<link href="https://en.wikipedia.org/wiki/William_Cullen_Bryant" refines="#translator" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n80050495.html" refines="#translator" rel="schema:sameAs"/>
 		<meta property="role" refines="#translator" scheme="marc:relators">trl</meta>
-		<meta property="role" refines="#translator" scheme="marc:relators">wpr</meta>
+		<meta property="role" refines="#translator" scheme="marc:relators">waw</meta>
 		<dc:contributor id="editor">Stoil Miroslavov Stoilov</dc:contributor>
 		<meta property="file-as" refines="#editor">Stoilov, Stoil Miroslavov</meta>
 		<meta property="se:url.homepage" refines="#editor">https://github.com/sstoilovABLE/odyssey-ebook-michael-caine-elevenlabs-narration</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">wat</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">win</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="producer-1">Emma Sweeney</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Sweeney, Emma</meta>
 		<link href="https://www.linkedin.com/in/emma-sweeney-554927190/" refines="#producer-1" rel="schema:url"/>
@@ -92,8 +97,8 @@
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
 		<item href="css/local.css" id="local.css" media-type="text/css"/>
 		<item href="css/se.css" id="se.css" media-type="text/css"/>
-		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/cover-new.jpg" id="cover-new.jpg" media-type="image/jpeg"/>
+		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="text/book-1.xhtml" id="book-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/book-2.xhtml" id="book-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/book-3.xhtml" id="book-3.xhtml" media-type="application/xhtml+xml"/>
