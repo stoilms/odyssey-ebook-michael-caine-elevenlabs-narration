@@ -14,7 +14,7 @@ If you're listening to the Michael Caine Odyssey audiobook on ElevenReader and w
 
 ## How to use it
 
-Download the ebook from the [latest release page](https://github.com/sstoilovABLE/odyssey-ebook-michael-caine-elevenlabs-narration/releases/latest) and read it while listening to the Michael Caine audiobook on the [ElevenReader app](https://elevenreader.io).
+Download the ebook from the [latest release page](https://github.com/stoilms/odyssey-ebook-michael-caine-elevenlabs-narration/releases/latest) and read it while listening to the Michael Caine audiobook on the [ElevenReader app](https://elevenreader.io).
 
 Each release offers the same book in several formats — pick the one for your device:
 
