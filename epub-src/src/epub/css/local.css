@@ -1,6 +1,17 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+/* The title page shows the cover art in place of the Standard Ebooks title
+   wordmark. The cover art already carries the title, so the heading stays
+   hidden for accessibility (see se.css), while the author, translator, and
+   editor credits are made visible beneath the art as plain text. */
+section[epub|type~="titlepage"] p{
+	left: auto;
+	position: static;
+	text-align: center;
+	text-indent: 0;
+}
+
 [epub|type~="se:bridgehead"]{
 	display: inline-block;
 	font-style: italic;
