@@ -1,5 +1,7 @@
 # 📋 Project Task Tracker
 
+## Version 1.0
+
 - [x] Update LICENSE.md
 - [x] Add .gitignore
 - [x] Create script to extract Roman name occurrences from the original WCB translation epub files
@@ -30,7 +32,13 @@
 - [x] Regenerate manifest/spine/TOC with se tooling and verify landmarks — regenerated the manifest with `se build-manifest`. Diffed `se build-spine`/`se build-toc` output against the current files: the sole content differences were (a) SE's canonical order would swap the editor's note and the introduction, which this edition **intentionally** keeps as note→introduction (kept the current spine/TOC order), and (b) a missing backmatter landmark — added the `endnotes` landmark to the TOC. Verified the bodymatter landmark points to book-1.xhtml.
 - [x] Build EPUB — `se build --output-dir dist/ epub-src/` succeeds; the output is epubcheck-valid (0 fatals / 0 errors / 0 warnings, EPUB 3.3) and ~1 MB. Note: `se build --check` throws a spurious "Couldn't parse XML" error in the CI/proxy env because Java's `JAVA_TOOL_OPTIONS` banner pollutes the stream `se` parses; running `se build` bare and then epubcheck directly validates clean. Also note `se` now names the output file after the `dc:identifier` (the GitHub URL), so rename it for distribution.
 - [x] Test on Google Play Books and Calibre ebook reader — tested on Google Play Books: works excellently.
-- [x] Compile final v1.0 EPUB — v1.0 built and tagged in the colophon (`the-odyssey-greek-names-caine-edition.epub`, the compatibility build). Still pending (maintainer): uploading the v1.0 EPUB to GitHub Releases.
+- [x] Compile final v1.0 EPUB — v1.0 built and tagged in the colophon (`the-odyssey-greek-names-caine-edition.epub`, the compatibility build). Kindle (`.azw3`) and Kobo (`.kepub.epub`) builds also produced. Still pending (maintainer): uploading the v1.0 release files to GitHub Releases.
+
+## Version 2.0
+
+- [ ] Add timestamps indicating which line of the ebook corresponds to which minute of the audiobook
+- [ ] Add more endnotes explaining which characters have kept their Roman names (because ElevenLabs have kept them) and explaining the Greek equivalent
+- [ ] Add more endnotes giving context about events, places and characters in the poem for the first-time reader
 
 
 # Actions to be done after every task
